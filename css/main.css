@@ -20,29 +20,31 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 header {
   padding: .5rem 0;
+  color: #fff;
   background-color: #18294f;
   text-align: center;
 }
 
-h1 {
+header h1 {
   margin: 0 0 .5rem;
+  padding: 0;
   font-size: 2rem;
-  color: #fff;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
+  font-size: 1.125rem;
   list-style-type: none;
 }
 
 nav li {
   text-align: left;
-  font-size: 1.125rem;
 }
 
 nav a {
@@ -50,6 +52,7 @@ nav a {
   padding: .5em .75em;
   color: #6c8fe0;
   text-decoration: none;
+  white-space: normal;
 }
 
 nav a:hover {
