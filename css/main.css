@@ -53,15 +53,27 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #333;
+  background-color: #6c8fe0;
   color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
 
+  nav ul {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   nav li {
-    display: inline-block;
+    width: 50%;
     text-align: center;
+  }
+
+  nav a {
+    display: flex;
+    width: 100%;
   }
 
 }
@@ -71,6 +83,24 @@ nav a:hover {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  nav ul {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  nav li {
+    width: auto;
+    text-align: center;
+  }
+
+  nav a {
+    display: flex;
+    width: 100%;
   }
 
 }
@@ -88,10 +118,14 @@ nav a:hover {
     text-align: left;
   }
 
+  header {
+    justify-content: flex-end;
+  }
+
   h1,
   nav {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: bottom;
   }
 
   h1 {
