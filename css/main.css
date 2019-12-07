@@ -118,10 +118,6 @@ nav a:hover {
     text-align: left;
   }
 
-  header {
-    justify-content: flex-end;
-  }
-
   h1,
   nav {
     display: inline-block;
